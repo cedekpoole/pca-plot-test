@@ -1,8 +1,15 @@
+import { Link } from "react-router-dom";
+
 
 function LandingPage() {
   return (
-    <div>
-      <h1>Welcome to my app!</h1>
+    <div className="flex justify-center items-center h-screen bg-slate-300">
+      <Link className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded w-36 mx-4 text-center" to="/volcano-plot">
+        Volcano Plot
+      </Link>
+      <Link className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 w-36 rounded mx-4 text-center" to="/pca-plot">
+        PCA Plot
+      </Link>
     </div>
   );
 }
