@@ -1,9 +1,9 @@
-
+import {VolcanoPlot} from "volcano-plot"
 
 function Volcano() {
   return (
     <div>
-      <h1>Volcano</h1>
+      <VolcanoPlot />
     </div>
   );
 }

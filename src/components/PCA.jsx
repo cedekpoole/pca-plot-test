@@ -1,9 +1,10 @@
+import { PCAPlot } from "pca-plot";
 
 function PCA() {
   return (
-    <div>
-      <h1>PCA</h1>
-    </div>
+    <>
+      <PCAPlot />
+    </>
   )
 }
 
