@@ -2,13 +2,16 @@ import { Link } from "react-router-dom";
 
 function LandingPage() {
   return (
-    <div className="flex justify-center items-center h-screen bg-slate-300">
-      <Link className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 mb-28 rounded w-36 mx-4 text-center hover:text-white hover:no-underline" to="/volcano-plot">
-        Volcano Plot
-      </Link>
-      <Link className="bg-green-500 hover:bg-green-700 text-white mb-28 font-bold py-2 px-4 w-36 rounded mx-4 text-center hover:text-white hover:no-underline" to="/pca-plot">
-        PCA Plot
-      </Link>
+    <div className="flex flex-col justify-center items-center h-screen bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">
+      <h1 className="md:text-5xl sm:text-4xl text-3xl text-white mb-10 font-bold">Data Visualization Hub</h1>
+      <div className="flex">
+        <Link className="transform transition bg-blue-600 hover:bg-blue-800 text-white font-bold py-3 px-6 m-4 rounded-lg shadow-lg hover:scale-110 hover:text-white hover:no-underline" to="/volcano-plot">
+          Volcano Plot
+        </Link>
+        <Link className="transform transition bg-purple-600 hover:bg-purple-800 text-white font-bold py-3 px-6 m-4 rounded-lg shadow-lg hover:scale-110 hover:text-white hover:no-underline" to="/pca-plot">
+          PCA Plot
+        </Link>
+      </div>
     </div>
   );
 }
