@@ -1,4 +1,4 @@
-import { PCAPlot } from "pca-plot";
+import { PCAPlot } from "rna-seq-plots";
 
 function PCA() {
   return (

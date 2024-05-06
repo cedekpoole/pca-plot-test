@@ -1,4 +1,4 @@
-import {VolcanoPlot} from "volcano-plot"
+import {VolcanoPlot} from "rna-seq-plots"
 
 function Volcano() {
   return (
